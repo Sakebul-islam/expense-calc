@@ -23,6 +23,18 @@ const DUMMY_EXPENSES = [
     amount: 450,
     date: new Date(2021, 5, 12),
   },
+  {
+    id: 'e5',
+    title: 'Buy New Bike',
+    amount: 500.52,
+    date: new Date(2022, 2, 28),
+  },
+  {
+    id: 'e6',
+    title: 'Buy a Laptop',
+    amount: 200.67,
+    date: new Date(2022, 5, 15),
+  },
 ];
 
 function App() {
@@ -36,6 +48,9 @@ function App() {
   };
   return (
     <div>
+      <div className='app-title'>
+        <h2>Expenses Calculator - Created by Sakebul islam</h2>
+      </div>
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>

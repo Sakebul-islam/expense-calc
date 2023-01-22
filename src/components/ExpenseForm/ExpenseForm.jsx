@@ -77,6 +77,7 @@ const ExpenseForm = props => {
             type='text'
             value={enteredTitle}
             onChange={titleChangeHandler}
+            placeholder='Writer expense title here . . .'
           />
         </div>
         <div className='new-expense__control'>
@@ -87,6 +88,7 @@ const ExpenseForm = props => {
             step='0.01'
             value={enteredAmount}
             onChange={amountChangeHandler}
+            placeholder='Enter expense amount . . .'
           />
         </div>
         <div className='new-expense__control'>

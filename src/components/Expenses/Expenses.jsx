@@ -8,7 +8,9 @@ import ExpenseChart from '../ExpenseChart/ExpenseChart';
 import './Expenses.scss';
 
 const Expenses = props => {
-  const [filterYear, setFilterYear] = useState('2021');
+  const currentDate = new Date().getFullYear().toString();
+  console.log(currentDate);
+  const [filterYear, setFilterYear] = useState(currentDate);
 
   const filterChangeHandler = selectedYear => {
     setFilterYear(selectedYear);

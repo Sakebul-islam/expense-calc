@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 1.2rem;
   margin: 1rem 0;
   background-color: #4b4b4b;
   &__description {
@@ -26,10 +26,9 @@
     font-size: 1rem;
     font-weight: bold;
     color: white;
-    background-color: #40005d;
-    border: 1px solid white;
-    padding: 0.5rem;
-    border-radius: 12px;
+    background-color: #22A39F;
+    padding: .8rem;
+    border-radius: 4px;
   }
 }
 
