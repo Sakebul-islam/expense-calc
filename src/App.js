@@ -35,6 +35,18 @@ const DUMMY_EXPENSES = [
     amount: 200.67,
     date: new Date(2022, 5, 15),
   },
+    {
+    id: 'e7',
+    title: 'Buy Rice Cooker',
+    amount: 120.12,
+    date: new Date(2023, 1, 10),
+  },
+    {
+    id: 'e8',
+    title: 'Buy a Bluetooth Spiker',
+    amount: 94.12,
+    date: new Date(2023, 1, 22),
+  },
 ];
 
 function App() {
